@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import AddNew from './add_new';
+import RecipesList from './recipes_list';
+//import ModalBase from './modal_base';
 
 export default class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+    	<div className="recipe-list">
+    	 	<RecipesList />
+     	</div>
     );
   }
-}
+}	
